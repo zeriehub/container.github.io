@@ -4,7 +4,7 @@ background-color:white;
 }
 p
 {
-    color:white;
+    color:rgba(255, 255, 255, 0);
     margin: 200px;
-    font-size: 100px;
+    font-size: 200px;
 }
