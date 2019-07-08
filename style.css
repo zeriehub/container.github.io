@@ -2,3 +2,9 @@ body
 {
 background-color:#1a1a13;
 }
+p
+{
+    font:white;
+    margin: 200px;
+    font-size: 100px;
+}
