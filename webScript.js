@@ -1,14 +1,18 @@
 let count=0;
-let circle=document.createElement("div");
+let wid=screen.width;
+let height= screen.height;
+
 let btn= document.querySelector("button");
-btn.addEventListener(click,startGame);
+btn.addEventListener("click",startGame);
 
 function startGame()
 {
-circle.toggle("circle");
-document.body.appendChild(circle);
-circle.style.top="100";
-circle.style.left="300";
+    let circle=document.createElement("div");
+    let randomNumber=Math.random();
+    circle.setAttribute("class","circle");
 
+    circle.style.top= (height* randomNumber);
+    circle.style.left=(wid * randomNumber);
+    document.body.appendChild(circle);
 
 }
