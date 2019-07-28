@@ -1,6 +1,7 @@
 let count=0;
 let wid=screen.width;
 let height= screen.height;
+let
 
 let btn= document.querySelector("button");
 btn.addEventListener("click",startGame);
