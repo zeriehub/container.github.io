@@ -14,27 +14,54 @@ background-color:#dac3a5;
 }
 .container
 {
-    position:fixed;
-    top:50%;
-    left:50%;
+    width:800px;
+    position:absolute;
+    top:30%;
+    right:100px;
+    left:30%;
+    align-content: center;
 
 }
 
 .student
 {
-    width:100px;
-    height:100px;
+    
+    
+    width:fit-content;
+    height:auto;
+    padding:10px;
     background-color:#19181a;
-    color:#cebc81;
+    color:black;
     font-size: 2em;
     display:inline-block;
     border-radius: 10px;
     margin:30px;
     text-align: center;
     
+    
 }
+.student:hover
+{
+   
+    top:-25px;
+    left:-35px;
+    bottom:-25px;
+    right:-35px;
+   
+    z-index:999;
+}
+
 a
 {color:#cebc81;}
+
+.instructions
+{
+    width:fit-content;
+    height: fit-content;
+    color:white;
+    align-self: auto;
+    font-size: 2em;
+}
 
 .nicson
 {
@@ -44,4 +71,8 @@ a
 .saido
 {
     background-color:#15252A;
+}
+.faytu
+{
+    background-color:#379683;
 }
