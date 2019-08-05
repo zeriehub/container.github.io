@@ -6,8 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Kenia</title>
+    
 </head>
 <body class="Kenia">
-    
+    <img src="icon.png" alt="icon">
+    <a href="Profile.docx">file</a>
 </body>
+<script>
+        let icn=document.querySelector("img");
+        icn.addEventListener("click",move);
+        function move()
+        {
+            icn.style.top=(Math.random()*innerHeight)-icn.offsetHeight+ "px";
+            icn.style.left=(Math.random()*innerWidth)-icn.offsetWidth+ "px";
+        }
+        </script>
 </html>
