@@ -1,7 +1,6 @@
 body
 {
-background-color:#272727;
-}
+    background-image:url("rio.jpg");}
 
 .circle
 {
@@ -20,11 +19,11 @@ background-color:#272727;
     right:100px;
     left:30%;
     
-    background-image:url("art.jpg");
+  
     background-repeat:no-repeat;
     background-size: cover;
     background-blend-mode:screen;
-    border:1px solid black;
+   
     border-radius: 7px;
 
 }
@@ -33,10 +32,7 @@ background-color:#272727;
 {
     
     
-    width:fit-content;
-    height:auto;
-    padding:10px;
-    background-color:#19181a;
+   
     color:black;
     font-size: 2em;
     display:inline-block;
@@ -69,80 +65,35 @@ a
     font-size: 2em;
 }
 
-.nicson
+form
 {
-    background-color:#272727;
+    width:700px;
+    height:500px;
+    border: 2px solid #15252A;
+    background-color:rgba(255,255,255,0.465);
+    border-radius:5px;
+    align-content: center;
+    margin: 200px -400px 0px 500px;
+
+}
+textarea
+{
+width:300px;
+height:auto;
+margin:10px;
+display:block;
 }
 
-.saido
+form>p
 {
-    background-color:#15252A;
-}
-.faytu
-{
-    background-color:#379683;
+    margin:10px 0 2px 5px;
 }
 
-.Kenia
+Select
 {
-    background-color:rgba(46, 17, 20, 1);
+    margin-left:20px;
 }
 
-.Sokhan
-{
-    background-color:#282828;
-}
-
-.Lemlem
-{
-    background-color:#1a1a1d;
-}
-
-.Semere
-{
-    background-color:#efe2ba;
-}
-
-.Salim
-{
-    background-color:#2c3531;
-}
-
-.Mohammed
-{
-    background-color:#eae7dc;
-}
-
-.Bisrat
-{
-    background-color:#272727;
-}
-
-.Mary
-{
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,0.178), rgba(255,0,0,0));
-  
-}
-
-.Yunli
-{
-    background-color:#222629;
-}
-
-.Tizazu
-{
-    background-color:#222629;
-}
-
-.Roon
-{
-    background-color:#46344e;
-}
-
-.Tsehaynesh
-{
-    background-color:#182628;
-}
 
 img
 {
