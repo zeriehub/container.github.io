@@ -1,6 +1,8 @@
 body
 {
-    background-image:url("rio.jpg");}
+    background-image:url("skull.png");
+    background-position: center;
+}
 
 .circle
 {
