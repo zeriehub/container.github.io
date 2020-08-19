@@ -16,6 +16,8 @@ body
 {
     align-content: center;
     width:700px;
+    height:500px;
+    background-color: #fffae8;
     position:absolute;
     
     right:100px;
