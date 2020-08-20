@@ -1,0 +1,23 @@
+/*
+Name: Merehaw Zerie
+Student ID: 3044369
+*/
+/* 
+    Created on : Aug. 16, 2020, 9:49:27 p.m.
+    Author     : Merehaw Zerie <merhawizerie@gmail.com>
+*/
+
+body{
+    background-color: black;
+}
+
+.container
+{
+    width:500px;
+    height:500px;
+    background-color:#bab197;
+    float:left;
+    position:absolute;
+    margin: 100px 100px 100px 100px;
+                
+}
