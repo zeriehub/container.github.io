@@ -1,23 +1,35 @@
 /*
-Name: Merehaw Zerie
-Student ID: 3044369
+Name: M_Zerie
 */
 /* 
     Created on : Aug. 16, 2020, 9:49:27 p.m.
     Author     : Merehaw Zerie <merhawizerie@gmail.com>
 */
 
+
 body{
-    background-image: radial-gradient (black,#82807f);
+    background-color:#2f3837;
 }
 
 .container
 {
-    width:500px;
-    height:500px;
+    border-radius:5px;
+    width:20%;
+    height:60%;
     background-color:#bab197;
-    float:left;
     position:absolute;
-    margin: 100px 100px 100px 100px;
+    margin:100px 100px 100px 30px;
+                
+}
+
+
+#innerContainer
+{
+    border-radius:5px;
+    width:90%;
+    height:90%;
+    background-color:black;
+    position:relative;
+    margin:10px 10px 10px 10px;
                 
 }
