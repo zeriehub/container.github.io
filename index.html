@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-Name: M_Zerie
+Name: M_Zerie blablablbalbalb
 
 -->
 <html>
@@ -8,18 +8,44 @@ Name: M_Zerie
         <title>Web_Zerie</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link  rel="stylesheet" href="css1.css">
+        <link  rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+         <script>
+                 mocha.setup('BDD');
+         </script>
+         
+         <!-- add chai -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+        <script>
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+        </script>
     </head>
+    <!--*************************************************************************-->
     <body>
         
-        <script src="Js1.js">
+        <script src='script.js'>   </script>
+        <script src="test.js"></script>
             
-            </script>
-            
-            <div class="container">
-                <div id="innerContainer">
-                    
-                </div>
+            <div class="MenuBar">
+                <a href="#"> Menu</a>
+                 <a href="#"> Quizzes</a>
+                  <a href="#"> Games</a>
+                  
+                 <a href="#" class="rightFloat"> Sign in</a>
+                  <a href="#" class="rightFloat"> Sign up</a>
             </div>
+            
+            <div class="content">
+                <h2 class="center"> Time </h2>
+                <p>In this game you have to click on the red circles </p>
+                
+            </div>
+        
+        <div id="mocha" style="background-color:white;display:block"></div>
+        
+        <script>mocha.run();</script>
+       
     </body>
 </html>
