@@ -1,109 +1,65 @@
-body
-{
-    background-image:url("skull.png");
-    background-position: center;
-}
+/*
+Name: M_Zerie
+*/
+/* 
+    Created on : Aug. 16, 2020, 9:49:27 p.m.
+    Author     : Merehaw Zerie <merhawizerie@gmail.com>
+*/
 
-.circle
-{
-    border:2px solid red;
-    border-radius: 100;
-    background-color: teal;
-    width:100px;
-    height:100px;
-}
-.container
-{
-    align-content: center;
-    width:700px;
-    height:500px;
-    background-color: #fffae8;
-    position:absolute;
-    
-    right:100px;
-    left:30%;
-    
-  
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-blend-mode:screen;
+
+body{
+    background-color:#2f3837;
    
-    border-radius: 7px;
-
 }
 
-.student
+.center
 {
-    
-    
-   
-    color:black;
-    font-size: 2em;
-    display:inline-block;
-    border-radius: 10px;
-    margin:30px;
-    text-align: center;
+    margin: 20px auto;
+    display: block;
     
     
 }
-.student:hover
-{
-   
-    top:-25px;
-    left:-35px;
-    bottom:-25px;
-    right:-35px;
-   
-    z-index:999;
-}
-
-a
-{color:#cebc81;}
-
-.instructions
-{
-    width:fit-content;
-    height: fit-content;
-    color:white;
-    align-self: auto;
-    font-size: 2em;
-}
-
-form
-{
-    width:700px;
-    height:500px;
-    border: 2px solid #15252A;
-    background-color:rgba(255,255,255,0.465);
-    border-radius:5px;
-    align-content: center;
-    margin: 200px -400px 0px 500px;
-
-}
-textarea
-{
-width:300px;
-height:auto;
-margin:10px;
-display:block;
-}
-
-form>p
-{
-    margin:10px 0 2px 5px;
-}
-
-Select
-{
-    margin-left:20px;
-}
-
-
-img
-{
-    width:170px;
-    height:170px;
+.content{
+    background-color: #ffffff;
+    width:70%;
+    height:90%;
+    margin: 0 auto;
+    font-family: "Times New Roman", Times, serif;
     position:relative;
 }
 
+.MenuBar
+{
+    margin:0 auto;
+    border-radius:5px;
+    width:50%;
+    background-color:#f2f2f2;
+    padding: 20px;
+   
+                
+}
+
+a {
+    display:inline-block;
+   margin:0 10px 0 10px;
+   font-size: 1.2em;
+   color: black;
+   text-decoration: none;
+   font-family: serif;
+    
+}
+
+a.rightFloat{
+    margin: 0 15px auto;
+    float:right;
+    color:darkgray;
+    
+}
+a:hover{
+
+    border-radius: 5px;
+    color: grey;
+    
+    
+}
 

@@ -1,21 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Class practice</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<!--
+Name: M_Zerie blablablbalbalb
 
-<body>
-    
-        <p> </p>
-  
-    <div class="container">
-        <h1>Selina got the power of the Milk!!</h1>
-        <h1>Fenan got the power of the Indomi!!</h1>
-    </div>
-</body>
-<script src="webScript.js"></script>
+-->
+<html>
+    <head>
+        <title>Web_Zerie</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+         <script>
+                 mocha.setup('BDD');
+         </script>
+         
+         <!-- add chai -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+        <script>
+        // chai has a lot of stuff, let's make assert global
+        let assert = chai.assert;
+        </script>
+    </head>
+    <!--*************************************************************************-->
+    <body>
+        
+        <script src='script.js'>   </script>
+        <script src="test.js"></script>
+            
+            <div class="MenuBar">
+                <a href="#"> Menu</a>
+                 <a href="#"> Quizzes</a>
+                  <a href="#"> Games</a>
+                  
+                 <a href="#" class="rightFloat"> Sign in</a>
+                  <a href="#" class="rightFloat"> Sign up</a>
+            </div>
+            
+            <div class="content">
+                <h2 class="center"> Time </h2>
+                <p>In this game you have to click on the red circles </p>
+                
+            </div>
+        
+        <div id="mocha" style="background-color:white;display:block"></div>
+        
+        <script>mocha.run();</script>
+       
+    </body>
 </html>
