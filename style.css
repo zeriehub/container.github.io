@@ -23,11 +23,16 @@ body {
 
 .login {
   display: flex;
-  min-width: 45%;
-  min-height: 45%;
+  min-width: 50%;
+  min-height: 50%;
   margin: 30%;
-  padding: 20%;
-  background: linear-gradient(180deg, #e0e0e0 0%, #ffffff 100%);
+  padding: 10%;
+  color: black;
+  font-weight: 800;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  background: linear-gradient(180deg, #fffdd7 20%, rgba(17, 12, 0, 0.2) 100%);
+  /* background: linear-gradient(180deg, #e0e0e0 0%, #ffffff 100%); */
   background-size: cover;
   border-radius: 5px;
   flex-direction: column;
