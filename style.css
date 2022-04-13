@@ -23,10 +23,17 @@ body {
 
 .login {
   display: flex;
-  min-width: 500px;
-  min-height: 400px;
-  margin-top: 30%;
+  min-width: 45%;
+  min-height: 45%;
+  margin: 30%;
+  padding: 20%;
   background: linear-gradient(180deg, #e0e0e0 0%, #ffffff 100%);
   background-size: cover;
   border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cordContent {
 }
