@@ -23,7 +23,7 @@ body {
 
 .login {
   display: flex;
-  min-width: 20%;
+  min-width: 20em;
   width: auto;
   height: auto;
   margin: 20% 30% 0 30%;
