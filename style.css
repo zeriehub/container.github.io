@@ -23,22 +23,24 @@ body {
 
 .login {
   display: flex;
-  min-width: 50%;
-  min-height: 50%;
-  margin: 30%;
-  padding: 10%;
+  min-width: 20%;
+  width: auto;
+  height: auto;
+  margin: 20% 30% 0 30%;
+  padding: 5%;
   color: black;
   font-weight: 800;
   font-family: Georgia, "Times New Roman", Times, serif;
-
-  background: linear-gradient(180deg, #fffdd7 20%, rgba(17, 12, 0, 0.2) 100%);
+  background: linear-gradient(
+    180deg,
+    #edfcff 6.756756756756757%,
+    rgba(208, 204, 188, 0.92) 100%
+  );
+  /* background: linear-gradient(180deg, #fffdd7 20%, rgba(17, 12, 0, 0.2) 100%); */
   /* background: linear-gradient(180deg, #e0e0e0 0%, #ffffff 100%); */
   background-size: cover;
   border-radius: 5px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.cordContent {
 }
